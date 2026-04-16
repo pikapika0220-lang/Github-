@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='')
 
 def risk_and_summary(title,body): #chatのcompletionsにアクセスし実行
     response = client.chat.completions.create( 

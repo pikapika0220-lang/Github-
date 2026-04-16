@@ -10,3 +10,5 @@ soup = BeautifulSoup(res.text, "html.parser")
 
 elems = soup.find_all(href=re.compile("news.yahoo.co.jp/pickup")) 
 elems #github 確認用
+
+#feature branchの進行確認

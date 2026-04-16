@@ -8,5 +8,5 @@ res = requests.get(url)
 
 soup = BeautifulSoup(res.text, "html.parser")
 
-elems = soup.find_all(href=re.compile("news.yahoo.co.jp/pickup"))
-elems
+elems = soup.find_all(href=re.compile("news.yahoo.co.jp/pickup")) 
+elems #github 確認用

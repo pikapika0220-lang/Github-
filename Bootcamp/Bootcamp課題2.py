@@ -2,7 +2,7 @@ import requests #web pageを取得するためのモジュール
 import pandas as pd
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='APIkey')
 
 def risk_and_summary(title,body): #chatのcompletionsにアクセスし実行
     response = client.chat.completions.create( 
